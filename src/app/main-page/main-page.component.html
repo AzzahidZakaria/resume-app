@@ -1,0 +1,9 @@
+<p>main-page works!</p>
+<div>
+    <h1>Welcome to My Resume</h1>
+    <p>Here are some of my skills:</p>
+    <div class="skill-card" *ngFor="let skill of skills">
+      <h2>{{ skill.title }}</h2>
+      <p>{{ skill.description }}</p>
+    </div>
+  </div>
